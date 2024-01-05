@@ -11,15 +11,15 @@ Joke dataset from
 
 ## Data Cleaning
 
-- Filter out jokes with less than 2 words and nul joke
+- Filter out jokes with less than 2 words and null jokes.
 - Joke Deduplication
-  - Remove exact duplicates
+  - Remove exact duplicates.
   - Remove duplicates with similarity by generating a vector from jokes with the Universal Sentence Encoder, then find the cosine similarity (cosine similarity approximated with the [annoy](https://github.com/spotify/annoy) library).
 
 ## Funny and Not Funny Jokes Separation
 
-- Using score thresholding separation (score > 24 is funny and score <= 24 is not funny) which is label in `funny` column in the dataset
+- Using score thresholding separation (score > 24 is funny and score <= 24 is not funny), which is labeled in the `funny` column in the dataset
 
-## Generating simiral non-humor text from funny jokes
+## Generating similar non-humor text from funny jokes
 
-- Using Gemini-pro model via Google AI API
+- Using Gemini-Pro model via the Google AI API
