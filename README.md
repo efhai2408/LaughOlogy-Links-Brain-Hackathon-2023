@@ -1,4 +1,4 @@
-# LaughOlogy-Links-Brain-Hackathon-2023
+# LaughOlogy Links - Brain Hackathon 2023
 
 ## [Data Preparation](https://github.com/tangnatta/LaughOlogy-Links-Brain-Hackathon-2023/tree/main/Data%20Preparation)
 
